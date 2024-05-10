@@ -18,9 +18,6 @@ app.use(function (req, res, next) {
   next();
 });
 
-
-
-
 app.use("/quotely-service/users", userRoutes);
 
 
